@@ -5,10 +5,11 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css',
+                'resources/css/app.scss', 'resources/js/app.js',
                 'resources/js/app.js',
             ],
             refresh: true,
         }),
     ],
+    assetsInclude: ['**/*.svg'], // Ensure Vite handles .svg files
 });

@@ -2,9 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Livewire\Home;
+use App\Livewire\AboutMe;
+use App\Livewire\Projects;
+
+Route::get('/', Home::class)->name('home');
+Route::get('aboutme', AboutMe::class)->name('aboutme');
+Route::get('projects', Projects::class)->name('projects');
 
 Route::middleware([
     'auth:sanctum',
