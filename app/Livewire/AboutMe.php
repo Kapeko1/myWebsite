@@ -23,13 +23,13 @@ class AboutMe extends Component
             'title' => 'Graduating',
             'date' => 'July 2021',
             'content' => "I successfully defended my bachelor's thesis in the field of English and Russian for Business. At that point, I decided I needed a break from education, so I spent the following year working in a restaurant, where I gained valuable experience in interpersonal communication and customer service.",
-            'icon' => 'graduate.png',
+            'icon' => 'working_restaurant.png',
         ],
         [
             'title' => 'One year later...',
             'date' => 'October 2022',
             'content' => "During this time, I realized that I was, in a way, wasting my time and not progressing. As a result, I returned to my studies. I was highly motivated and began studying two fields simultaneously: a Master's in Russian Language for Specialized Translation at Jagiellonian University in Kraków, and a Bachelor's in Computer Science at the University of Information Technology and Management in Rzeszów. I don’t like leaving things unfinished, so I continued with Russian studies. At the time, I thought it was the right choice, but over time, I realized that Computer Science, particularly programming, was my true passion.",
-            'icon' => 'working_restaurant.png',
+            'icon' => 'studies.png',
         ],
         [
             'title' => 'During studies - 1st internship',
@@ -40,12 +40,12 @@ class AboutMe extends Component
             'title' => "End of master's in Russian",
             'date' => 'June 2024',
             'content' => "At that point, I completed my courses at Jagiellonian University and was able to fully focus on programming. During this time, I developed two small projects for my studies  -  a mobile app/organizer to track attendance at classes and other events, and simple Snake game written in Java.",
-            'icon' => 'studies.png',
+            'icon' => 'graduate.png',
         ],
         [
             'title' => 'During studies - 2nd internship',
             'date' => 'July 2024',
-            'content' => "My second internship was at Danmar Computers (3 months). I worked with completely different technologies than those I had encountered before or during my studies. I mainly used PHP (Laravel projects) and Flutter, but Python also came in handy (for parsers, etc.). This time, it wasn't as challenging as my first internship in game development - I had a solid foundation and the confidence that I could understand and learn any language or technology. I believe that programming is fundamentally the same, and different languages or frameworks are quite similar to each other. What really matters is understanding how computers 'think' in order to program effectively. This was probably the most formative period of my life - I participated in the development of various web platforms and mobile apps, and I also managed to create my own projects, from scratch to production release.",
+            'content' => "My second internship was at Danmar Computers (3 months). I worked with completely different technologies than those I had encountered before or during my studies. I mainly used PHP (Laravel projects) and Flutter, but Python also came in handy (for parsers, etc.). This time, it wasn't as challenging as my first internship in game development - I had a solid foundation and the confidence that I could understand and learn any language or technology. I believe that programming is fundamentally the same, and different languages or frameworks are quite similar to each other. What really matters is understanding how computers 'think' in order to program effectively. This was probably the most formative period of my life - I participated in the development of various web platforms and mobile apps, and I also managed to create my own projects, from scratch to production release. I was even sent to an international conference, where we discussed the details of the projects we were working on with partners from Germany, Spain, Italy, and the Czech Republic.",
             'icon' => 'php.png',
         ],        [
             'title' => 'Now',

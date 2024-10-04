@@ -13,6 +13,7 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <!-- Vite (app.css & app.js) -->
     @vite(['resources/css/app.scss', 'resources/js/app.js'])
@@ -23,7 +24,7 @@
 <body class="font-sans antialiased">
 <x-banner />
 
-<div class="min-h-screen bg-gray-100">
+<div class="min-h-screen bg-theme">
     @livewire('navigation-menu')
 
     <!-- Page Heading -->
