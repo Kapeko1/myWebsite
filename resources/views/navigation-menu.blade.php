@@ -11,7 +11,7 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="space-x-8 sm:-my-px sm:ms-10 sm:flex flex justify-between">
+                <div class=" hidden space-x-8 sm:-my-px sm:ms-10 sm:flex justify-between">
                     <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                         {{ __('Home') }}
                     </x-nav-link>
@@ -37,11 +37,17 @@
     </div>
 
     <!-- Responsive Navigation Menu -->
-{{--    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">--}}
-{{--        <div class="pt-2 pb-3 space-y-1">--}}
-{{--            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">--}}
-{{--                {{ __('Dashboard') }}--}}
-{{--            </x-responsive-nav-link>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+        <div class="pt-2 pb-3 space-y-1">
+            <x-responsive-nav-link href="{{ route('home') }}" :active="request()->routeIs('dashboard')">
+                {{ __('Home') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ route('aboutme') }}" :active="request()->routeIs('dashboard')">
+                {{ __('About Me') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link href="{{ route('projects') }}" :active="request()->routeIs('dashboard')">
+                {{ __('My Projects') }}
+            </x-responsive-nav-link>
+        </div>
+    </div>
 </nav>
