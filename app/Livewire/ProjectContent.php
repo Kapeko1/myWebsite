@@ -8,8 +8,8 @@ class ProjectContent extends Component
 {
     public int $ID;
     public array $projects = [
-        1 => "Obecnosc app",
-        2 => "Snake Game",
+        1 => "Obecność",
+        2 => "Snake",
         3 => "Zgadnij Suchara",
         4 => "Open4u",
         5 => "DigiFreelancer",

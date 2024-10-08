@@ -1,7 +1,6 @@
 <div class="container mx-auto px-4 py-8" x-data="{ selectedTech: 'all' }">
     <h1 class="text-center text-3xl font-bold mb-10">My Projects</h1>
 
-    <!-- Filter Section -->
     <div class="flex justify-center space-x-4 mb-10">
         <button @click="selectedTech = 'all'"
                 :class="selectedTech === 'all' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
@@ -40,14 +39,13 @@
         </button>
     </div>
 
-    <!-- Projects Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div class="bg-white shadow-lg rounded-lg overflow-hidden project"
              x-show="selectedTech === 'all' || selectedTech === 'Unity'"
              data-tech="Unity" data-cowork="false">
             <img src="{{Vite::asset('resources/img/projects/1.png')}}" alt="Project 1" class="w-full h-48">
             <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Obecnosc app</h3>
+                <h3 class="text-xl font-semibold mb-2">Obecność</h3>
                 <p class="text-gray-700 mb-4 tech">Unity C#</p>
                 <p class="text-gray-700 mb-4 tech">Event Planner and Attendance Log.</p>
                 <a href="{{ route('project-content', ['id' => 1]) }}" wire:navigate class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Details</a>
@@ -59,7 +57,7 @@
              data-tech="Java" data-cowork="false">
             <img src="{{Vite::asset('resources/img/projects/2.png')}}" alt="Project 2" class="w-full h-48 object-cover">
             <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Snake Game</h3>
+                <h3 class="text-xl font-semibold mb-2">Snake</h3>
                 <p class="text-gray-700 mb-4 tech">Java</p>
                 <p class="text-gray-700 mb-4 ">A snake game where an enemy appears after reaching a certain number of points.</p>
                 <a href="{{ route('project-content', ['id' => 2]) }}" wire:navigate class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">View Details</a>

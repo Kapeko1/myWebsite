@@ -1,5 +1,6 @@
 @include("livewire.proj." . $ID)
 <div class="max-w-7xl mx-auto px-4">
+    <x-back-arrow route="projects" />
     <div class="w-full">
         <h1 class="text-3xl text-center font-bold my-4">{{ $projects[$ID] }}</h1>
     </div>
