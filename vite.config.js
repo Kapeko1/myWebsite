@@ -11,5 +11,5 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    assetsInclude: ['**/*.svg'], // Ensure Vite handles .svg files
+    assetsInclude: ['**/*.svg', '**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.PNG'], // Ensure Vite handles .svg files
 });

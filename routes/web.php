@@ -12,10 +12,6 @@ Route::get('/aboutme', AboutMe::class)->name('aboutme');
 Route::get('/projects', Projects::class)->name('projects');
 Route::get('/project-content/{id}', ProjectContent::class,)->name('project-content');
 
-
-
-
-
 //Route::middleware([
 //    'auth:sanctum',
 //    config('jetstream.auth_session'),
