@@ -1,40 +1,40 @@
 <div class="container mx-auto px-4 py-8" x-data="{ selectedTech: 'all' }">
     <h1 class="text-center text-3xl font-bold mb-10">My Projects</h1>
 
-    <div class="flex justify-center space-x-4 mb-10">
+    <div class="flex flex-wrap justify-center space-x-4 mb-10">
         <button @click="selectedTech = 'all'"
                 :class="selectedTech === 'all' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             All
         </button>
         <button @click="selectedTech = 'Unity'"
                 :class="selectedTech === 'Unity' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Unity
         </button>
         <button @click="selectedTech = 'Java'"
                 :class="selectedTech === 'Java' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Java
         </button>
         <button @click="selectedTech = 'Flutter'"
                 :class="selectedTech === 'Flutter' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Flutter
         </button>
         <button @click="selectedTech = 'Laravel'"
                 :class="selectedTech === 'Laravel' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Laravel
         </button>
         <button @click="selectedTech = 'Python'"
                 :class="selectedTech === 'Python' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Python
         </button>
         <button @click="selectedTech = 'co-work'"
                 :class="selectedTech === 'co-work' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'"
-                class="px-4 py-2 rounded">
+                class="px-4 py-2 rounded mb-2">
             Co-Work
         </button>
     </div>

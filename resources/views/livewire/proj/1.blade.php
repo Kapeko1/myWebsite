@@ -13,8 +13,9 @@
 
 @section("Additional info")
     <h2>
-        Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span><a class="hover:cursor-pointer text-blue-400" wire:click="download('Obecnosc.pdf')">
-        Download</a></span>.</h2>
+        Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span>        <a href="{{ url('/download/Obecnosc.pdf') }}" class="hover:cursor-pointer text-blue-400">
+            Download
+        </a></span>.</h2>
 
 @endsection
 
@@ -23,11 +24,11 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ Vite::asset('resources/img/projects/obecnosc/5.png') }}',
-                 '{{ Vite::asset('resources/img/projects/obecnosc/2.png') }}',
-                 '{{ Vite::asset('resources/img/projects/obecnosc/3.png') }}',
-                 '{{ Vite::asset('resources/img/projects/obecnosc/4.png') }}',
-                 '{{ Vite::asset('resources/img/projects/obecnosc/1.png') }}'
+                 '{{ asset('resources/img/projects/obecnosc/5.png') }}',
+                 '{{ asset('resources/img/projects/obecnosc/2.png') }}',
+                 '{{ asset('resources/img/projects/obecnosc/3.png') }}',
+                 '{{ asset('resources/img/projects/obecnosc/4.png') }}',
+                 '{{ asset('resources/img/projects/obecnosc/1.png') }}'
              ],
              showModal: false,
              modalImage: '',

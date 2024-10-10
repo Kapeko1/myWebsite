@@ -17,8 +17,9 @@
 
 @section("Additional info")
     <h2>
-        Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span><a class="hover:cursor-pointer text-blue-400" wire:click="download('Snake.pdf')">
-        Download</a></span>.</h2>
+        Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span>        <a href="{{ url('/download/Snake.pdf') }}" class="hover:cursor-pointer text-blue-400">
+            Download
+        </a>></span>.</h2>
     <h2>It was my first project, which I started writing right after my first Java classes, and it was on this project that I learned the language through trial and error.</h2>
 <h2>All the graphics were created for me by DALL-E. Whats funny - the entire snake's tail is its modified in Paint head icon (for some reason, DALL-E didn't generate anything suitable for me).</h2>
     Since this is solely my personal project, the code is available on GitHub here - <a href="https://github.com/Kapeko1/JavaFX_Gra" target="_blank" class="hover:cursor-pointer text-blue-400">JavaFX_Gra</a></h2>
@@ -28,11 +29,11 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ Vite::asset('resources/img/projects/snake/5.png') }}',
-                 '{{ Vite::asset('resources/img/projects/snake/2.png') }}',
-                 '{{ Vite::asset('resources/img/projects/snake/3.png') }}',
-                 '{{ Vite::asset('resources/img/projects/snake/4.png') }}',
-                 '{{ Vite::asset('resources/img/projects/snake/1.png') }}'
+                 '{{ asset('resources/img/projects/snake/5.png') }}',
+                 '{{ asset('resources/img/projects/snake/2.png') }}',
+                 '{{ asset('resources/img/projects/snake/3.png') }}',
+                 '{{ asset('resources/img/projects/snake/4.png') }}',
+                 '{{ asset('resources/img/projects/snake/1.png') }}'
              ],
              showModal: false,
              modalImage: '',

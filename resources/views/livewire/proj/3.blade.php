@@ -27,9 +27,9 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ Vite::asset('resources/img/projects/3.png') }}',
-                 '{{ Vite::asset('resources/img/projects/suchar/1.jpg') }}',
-                 '{{ Vite::asset('resources/img/projects/suchar/2.jpg') }}',
+                 '{{ asset('resources/img/projects/3.png') }}',
+                 '{{ asset('resources/img/projects/suchar/1.jpg') }}',
+                 '{{ asset('resources/img/projects/suchar/2.jpg') }}',
              ],
              showModal: false,
              modalImage: '',

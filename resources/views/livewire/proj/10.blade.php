@@ -21,11 +21,11 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ Vite::asset('resources/img/projects/food/1.png', ) }}',
-                 '{{ Vite::asset('resources/img/projects/food/2.png', ) }}',
-                 '{{ Vite::asset('resources/img/projects/food/3.png', ) }}',
-                 '{{ Vite::asset('resources/img/projects/food/4.png', ) }}',
-                 '{{ Vite::asset('resources/img/projects/food/5.png', ) }}',
+                 '{{ asset('resources/img/projects/food/1.png', ) }}',
+                 '{{ asset('resources/img/projects/food/2.png', ) }}',
+                 '{{ asset('resources/img/projects/food/3.png', ) }}',
+                 '{{ asset('resources/img/projects/food/4.png', ) }}',
+                 '{{ asset('resources/img/projects/food/5.png', ) }}',
              ],
              showModal: false,
              modalImage: '',

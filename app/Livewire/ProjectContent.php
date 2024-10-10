@@ -31,10 +31,14 @@ class ProjectContent extends Component
         return view('livewire.project-content');
     }
 
-    public function download($file){
-
-
-        return response()->download(storage_path('/app/public/files/'.$file));
+    public function download($file)
+    {
+        if (!file_exists(public_path('files/'.$file))) {
+            abort(404, 'File not found.');
+        }
+        return response()->download(public_path('files/'.$file));
     }
+
+
 
 }

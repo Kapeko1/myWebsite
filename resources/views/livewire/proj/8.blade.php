@@ -26,8 +26,8 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ Vite::asset('resources/img/projects/prosper/1.png') }}',
-                 '{{ Vite::asset('resources/img/projects/prosper/2.png') }}',
+                 '{{ asset('resources/img/projects/prosper/1.png') }}',
+                 '{{ asset('resources/img/projects/prosper/2.png') }}',
              ],
              showModal: false,
              modalImage: '',

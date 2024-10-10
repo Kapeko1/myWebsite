@@ -12,6 +12,18 @@ Route::get('/aboutme', AboutMe::class)->name('aboutme');
 Route::get('/projects', Projects::class)->name('projects');
 Route::get('/project-content/{id}', ProjectContent::class,)->name('project-content');
 
+
+Route::get('/download/{file}', function ($file) {
+    $filePath = public_path('files/' . $file);
+
+    if (file_exists($filePath)) {
+        return response()->download($filePath);
+    } else {
+        abort(404, 'File not found.');
+    }
+});
+
+
 //Route::middleware([
 //    'auth:sanctum',
 //    config('jetstream.auth_session'),
