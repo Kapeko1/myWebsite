@@ -1,13 +1,21 @@
 <div class="container mx-auto my-10 px-4">
     <!-- Hero Section -->
-    <div class="text-center py-16 bg-blue-600 text-white rounded-3xl">
-        <h1 class="text-5xl font-bold mb-4">{{ __('Hi, I\'m Kacper Gądek') }}</h1>
-        <p class="text-xl mb-6">{{ __('Full-stack Developer & IT Specialist') }}</p>
-        <a href="{{ route('projects') }}" class="bg-white text-blue-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
-            {{ __('See My Projects') }}
+    <div class="text-center py-16 bg-blue-500 text-white rounded-3xl">
+        <h1 class="text-3xl font-bold mb-4 animate__animated animate__fadeIn">{{ __('Hi, I\'m Kacper Gądek') }}</h1>
+        <p class="text-xl mb-6 animate__animated animate__fadeIn">{{ __('Full-stack Developer & IT Specialist') }}</p>
+        <a href="{{ route('projects') }}"
+        class="animate__animated animate__fadeInUp animate__delay-1s bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
+        {{ __('See My Projects') }}
         </a>
-        <a href="#contact" class="ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300 ease-in">
+        <a href="#contact"
+           class="animate__animated animate__fadeInUp animate__delay-1s ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300 ease-in">
             {{ __('Contact Me') }}
+        </a>
+        <a href="https://github.com/Kapeko1" target="_blank" class="py-3 px-4 animate__animated animate__bounce">
+            <i class="fab fa-github animate__animated animate__fadeIn animate__delay-1s"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kacper-gądek-16471330b/" target="_blank" class="py-3 animate__animated animate__bounce">
+            <i class="fa-brands fa-linkedin animate__animated animate__fadeIn animate__delay-1s"></i>
         </a>
     </div>
 
@@ -60,13 +68,13 @@
 
     <div class="h-16"></div>
 
-    <div id="contact" class="text-center py-16 bg-blue-600 text-white rounded-3xl">
+    <div id="contact" class="text-center py-16 bg-blue-500 text-white rounded-3xl">
         <h2 class="text-3xl font-bold mb-4">{{ __('Contact Me') }}</h2>
-        <p class="text-xl mb-6">{{ __('If you want to get in touch, feel free to contact me via email or phone!') }}</p>
-        <a href="mailto:kacper.gadek2@wp.pl" class="bg-white text-blue-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
+        <p class=" text-xl mb-6">{{ __('If you want to get in touch, feel free to contact me via email or phone!') }}</p>
+        <a href="mailto:kacper.gadek2@wp.pl" class="animate__animated animate__fadeInUp bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
             {{ __('Send an Email') }}
         </a>
-        <a href="tel:+48734481379" class="ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300">
+        <a href="tel:+48734481379" class="animate__animated animate__fadeInUp ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300">
             {{ __('Call Me') }}
         </a>
     </div>
