@@ -1,25 +1,30 @@
 <div class="container mx-auto my-10 px-4">
-    <!-- Hero Section -->
     <div class="text-center py-16 bg-blue-500 text-white rounded-3xl">
         <h1 class="text-3xl font-bold mb-4 animate__animated animate__fadeIn">{{ __('Hi, I\'m Kacper Gądek') }}</h1>
         <p class="text-xl mb-6 animate__animated animate__fadeIn">{{ __('Full-stack Developer & IT Specialist') }}</p>
-        <a href="{{ route('projects') }}"
-        class="animate__animated animate__fadeInUp animate__delay-1s bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
-        {{ __('See My Projects') }}
-        </a>
-        <a href="#contact"
-           class="animate__animated animate__fadeInUp animate__delay-1s ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300 ease-in">
-            {{ __('Contact Me') }}
-        </a>
-        <a href="https://github.com/Kapeko1" target="_blank" class="py-3 px-4 animate__animated animate__bounce">
-            <i class="fab fa-github animate__animated animate__fadeIn animate__delay-1s"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/kacper-gądek-16471330b/" target="_blank" class="py-3 animate__animated animate__bounce">
-            <i class="fa-brands fa-linkedin animate__animated animate__fadeIn animate__delay-1s"></i>
-        </a>
+
+        <div class="mb-6">
+            <a href="{{ route('projects') }}"
+               class="animate__animated animate__fadeInUp animate__delay-1s bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
+                {{ __('See My Projects') }}
+            </a>
+            <a href="#contact"
+               class="animate__animated animate__fadeInUp animate__delay-1s ml-4 bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-700 transition duration-300 ease-in">
+                {{ __('Contact Me') }}
+            </a>
+        </div>
+
+        <div class="mt-4">
+            <a href="https://github.com/Kapeko1" target="_blank" class="inline-block mx-2 py-3 px-4 animate__animated animate__bounce">
+                <i class="fab fa-github animate__animated animate__fadeIn animate__delay-1s text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kacper-gądek-16471330b/" target="_blank" class="inline-block mx-2 py-3 animate__animated animate__bounce">
+                <i class="fa-brands fa-linkedin animate__animated animate__fadeIn animate__delay-1s text-2xl"></i>
+            </a>
+        </div>
     </div>
 
-    <!-- About Section -->
+
     <div class="flex flex-col md:flex-row items-center py-16">
         <div class="md:w-1/3 mb-6 md:mb-0">
             <img src="{{ Vite::asset('resources/img/profile.jpg') }}" class="rounded-full mx-auto w-48 h-48 md:w-64 md:h-64 object-cover" alt="{{ __('Profile Picture') }}">
@@ -61,6 +66,7 @@
                 <ul>
                     <li class="mb-2">Git</li>
                     <li class="mb-2">{{ __('SQL Databases (or noSQL ones)') }}</li>
+                    <li class="mb-2">Nginx</li>
                 </ul>
             </div>
         </div>
