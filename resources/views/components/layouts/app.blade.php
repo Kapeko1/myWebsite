@@ -9,44 +9,35 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    @vite(['resources/css/app.scss', 'resources/js/app.js'])
+
+    <!-- Scripts -->
+    @livewireStyles
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <!-- Vite (app.css & app.js) -->
-    @vite(['resources/css/app.scss', 'resources/js/app.js'])
-
-    <!-- Alpine.js -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
-
-    <!-- Livewire Styles -->
-    @livewireStyles
 </head>
-<body class="font-sans antialiased">
-<x-banner />
-
-<div class="min-h-screen bg-theme">
+<body class="font-sans antialiased bg-gray-900 text-white">
+<div class="min-h-screen flex flex-col">
     @livewire('navigation-menu')
 
-    <!-- Page Heading -->
-    @if (isset($header))
-        <header class="bg-white shadow">
-            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                {{ $header }}
-            </div>
-        </header>
-    @endif
-
     <!-- Page Content -->
-    <main class="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+    <main class="flex-grow">
         {{ $slot }}
     </main>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; {{ date('Y') }} Kacper Gądek. All rights reserved.</p>
+        </div>
+    </footer>
 </div>
 
-<!-- Modals -->
 @stack('modals')
 
-<!-- Livewire Scripts -->
 @livewireScripts
 </body>
 </html>

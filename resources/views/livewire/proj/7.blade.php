@@ -1,6 +1,6 @@
 @section("Introduction")
-<h2>
-    Before my second internship, I wasn’t much of a fan of Python. However, without it and its useful libraries, converting .docx files into Dart maps would have been extremely time-consuming. After gaining more experience, I decided to develop a bot for myself and my friends from the online game Albion. The bot allows those who aren’t currently playing to track the activity of those who are in the game.</h2>
+<p>
+    Before my second internship, I wasn’t much of a fan of Python. However, without it and its useful libraries, converting .docx files into Dart maps would have been extremely time-consuming. After gaining more experience, I decided to develop a bot for myself and my friends from the online game Albion. The bot allows those who aren’t currently playing to track the activity of those who are in the game.</p>
 @endsection
 
 
@@ -22,9 +22,9 @@
 
 
 @section("Additional info")
-    <h2>
-        Since this is solely my personal project, the code is available on GitHub here - <a href="https://github.com/Kapeko1/dc_bot" target="_blank" class="hover:cursor-pointer text-blue-400">dc_bot</a></h2>
-    <h2>For security reasons, I do not store any authentication codes, tokens, or .env files in any repository, whether private or public.</h2>
+    <p>
+        Since this is solely my personal project, the code is available on GitHub here - <a href="https://github.com/Kapeko1/dc_bot" target="_blank" class="hover:cursor-pointer text-blue-400">dc_bot</a></p>
+    <p>For security reasons, I do not store any authentication codes, tokens, or .env files in any repository, whether private or public.</p>
 @endsection
 
 

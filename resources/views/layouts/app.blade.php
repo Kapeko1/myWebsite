@@ -17,7 +17,6 @@
     @vite(['resources/css/app.scss', 'resources/js/app.js'])
 
     <!-- Alpine.js -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.5/dist/cdn.min.js" defer></script>
 
     <!-- Livewire Styles -->
     @livewireStyles
@@ -41,6 +40,7 @@
     <main class="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         {{ $slot }}
     </main>
+
 </div>
 
 <!-- Modals -->
@@ -48,5 +48,6 @@
 
 <!-- Livewire Scripts -->
 @livewireScripts
+@stack('scripts')
 </body>
 </html>

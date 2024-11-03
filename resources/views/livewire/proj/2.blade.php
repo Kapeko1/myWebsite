@@ -16,13 +16,13 @@
 @endsection
 
 @section("Additional info")
-    <h2>
+    <p>
         Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span>        <a href="{{ url('/download/Snake.pdf') }}" class="hover:cursor-pointer text-blue-400">
             Download
-        </a>></span>.</h2>
-    <h2>It was my first project, which I started writing right after my first Java classes, and it was on this project that I learned the language through trial and error.</h2>
-<h2>All the graphics were created for me by DALL-E. Whats funny - the entire snake's tail is its modified in Paint head icon (for some reason, DALL-E didn't generate anything suitable for me).</h2>
-    Since this is solely my personal project, the code is available on GitHub here - <a href="https://github.com/Kapeko1/JavaFX_Gra" target="_blank" class="hover:cursor-pointer text-blue-400">JavaFX_Gra</a></h2>
+        </a></span></p>
+    <p>It was my first project, which I started writing right after my first Java classes, and it was on this project that I learned the language through trial and error.</p>
+<p>All the graphics were created for me by DALL-E. Whats funny - the entire snake's tail is its modified in Paint head icon (for some reason, DALL-E didn't generate anything suitable for me).</p>
+    Since this is solely my personal project, the code is available on GitHub here - <a href="https://github.com/Kapeko1/JavaFX_Gra" target="_blank" class="hover:cursor-pointer text-blue-400">JavaFX_Gra</a></p>
 @endsection
 @section("Images")
     <div class="carousel relative"

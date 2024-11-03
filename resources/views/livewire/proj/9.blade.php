@@ -23,7 +23,7 @@
 
 
 @section("Additional info")
-    <h2>The application is available on both <a href="https://apps.apple.com/pl/app/brand-mobile-fashionable-app/id6503604447?l=pl" target="_blank" class="hover:cursor-pointer text-blue-400">iOS</a> and <a href="https://play.google.com/store/apps/details?id=eu.dcnet.brand.brand" target="_blank" class="hover:cursor-pointer text-blue-400">Android</a> platforms.</h2>
+    <p>The application is available on both <a href="https://apps.apple.com/pl/app/brand-mobile-fashionable-app/id6503604447?l=pl" target="_blank" class="hover:cursor-pointer text-blue-400">iOS</a> and <a href="https://play.google.com/store/apps/details?id=eu.dcnet.brand.brand" target="_blank" class="hover:cursor-pointer text-blue-400">Android</a> platforms.</p>
 @endsection
 
 @section("Images")

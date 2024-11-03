@@ -1,5 +1,5 @@
 @section("Introduction")
-<h2>Edu4Food is a platform designed for learning about sustainable food as part of an EU project of the same name. At the time I was developing it, there was no content ready to be published, so the site currently consists mainly of the framework. This was the first time I implemented roles during the registration process, which determine the content users can access on the platform.</h2>
+<p>Edu4Food is a platform designed for learning about sustainable food as part of an EU project of the same name. At the time I was developing it, there was no content ready to be published, so the site currently consists mainly of the framework. This was the first time I implemented roles during the registration process, which determine the content users can access on the platform.</p>
 @endsection
 
 @section("Key features")
@@ -85,5 +85,5 @@
 
 
 @section("Additional info")
-    <h2>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://edu4food.erasmus.site/interactive-space/" target="_blank">Platform</a></h2>
+    <p>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://edu4food.erasmus.site/interactive-space/" target="_blank">Platform</a></p>
 @endsection

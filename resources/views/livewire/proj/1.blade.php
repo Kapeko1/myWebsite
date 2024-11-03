@@ -12,15 +12,15 @@
 @endsection
 
 @section("Additional info")
-    <h2>
+    <p>
         Since I completed my laboratory coursework with this project at university, I already have the documentation prepared (currently only in Polish) - <span>        <a href="{{ url('/download/Obecnosc.pdf') }}" class="hover:cursor-pointer text-blue-400">
             Download
-        </a></span>.</h2>
+        </a></span>.</p>
 
 @endsection
 
 @section("Images")
-    <div class="carousel relative"
+    <div class="carousel relative "
          x-data="{
              current: 0,
              images: [

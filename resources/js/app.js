@@ -13,3 +13,8 @@ import.meta.glob ('../img/projects/prosper/*');
 import.meta.glob ('../img/projects/snake/*');
 import.meta.glob ('../img/projects/suchar/*');
 import.meta.glob ('../img/projects/*');
+import { Livewire, Alpine } from '../../vendor/livewire/livewire/dist/livewire.esm';
+
+Alpine.plugin(Clipboard)
+
+Livewire.start()

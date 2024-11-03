@@ -1,5 +1,5 @@
 @section("Introduction")
-<h2>My first website fully developed independently using Laravel. It is part of a European project aimed at fostering skills in entrepreneurship and innovation. At the time of development, content was available for two modules - 3 and 5 - which were fully implemented</h2>
+<p>My first website fully developed independently using Laravel. It is part of a European project aimed at fostering skills in entrepreneurship and innovation. At the time of development, content was available for two modules - 3 and 5 - which were fully implemented</p>
 @endsection
 
 
@@ -22,7 +22,7 @@
 
 
 @section("Additional info")
-    <h2>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://gary50.erasmus.site/platform/" target="_blank">Platform</a></h2>
+    <p>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://gary50.erasmus.site/platform/" target="_blank">Platform</a></p>
 @endsection
 
 @section("Images")

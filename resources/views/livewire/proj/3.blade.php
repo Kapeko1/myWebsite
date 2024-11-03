@@ -18,8 +18,8 @@
 
 
 @section("Additional info")
-   <h2> The game is available on Android: <a class="hover:cursor-pointer text-blue-400" target="_blank" href="https://play.google.com/store/apps/details?id=com.simplicity.zgadnijsuchara&hl=pl">GooglePlay</a></h2>
-<h2>I consider the game a co-work because I developed it while having access to another, similar game. Additionally, the mockup and all the graphics were created by someone else.</h2>
+   <p> The game is available on Android: <a class="hover:cursor-pointer text-blue-400" target="_blank" href="https://play.google.com/store/apps/details?id=com.simplicity.zgadnijsuchara&hl=pl">GooglePlay</a></p>
+<p>I consider the game a co-work because I developed it while having access to another, similar game. Additionally, the mockup and all the graphics were created by someone else.</p>
 @endsection
 
 @section("Images")

@@ -1,5 +1,5 @@
 @section("Introduction")
-<h2>ProsperBSR was the application where I began my journey with Flutter. Its structure was already in place, and my first task was to add content to the menu. Later, I was responsible for expanding the app with completely new features, such as micro-lessons and recommended practices</h2>
+<p>ProsperBSR was the application where I began my journey with Flutter. Its structure was already in place, and my first task was to add content to the menu. Later, I was responsible for expanding the app with completely new features, such as micro-lessons and recommended practices</p>
 @endsection
 
 @section("Key features")
@@ -17,8 +17,8 @@
 
 
 @section("Additional info")
-    <h2>Due to the application's availability only on Android, the images are sourced from the official app page on <a href="https://play.google.com/store/apps/details?id=eu.dcnet.prosperbsr" target="_blank" class="hover:cursor-pointer text-blue-400">Google Play</a></h2>
-    <h2> The application was very simple, with no interactive elements, no local storage of dynamic data on the device, and no internet usage - just static educational content.</h2>
+    <p>Due to the application's availability only on Android, the images are sourced from the official app page on <a href="https://play.google.com/store/apps/details?id=eu.dcnet.prosperbsr" target="_blank" class="hover:cursor-pointer text-blue-400">Google Play</a></p>
+    <p> The application was very simple, with no interactive elements, no local storage of dynamic data on the device, and no internet usage - just static educational content.</p>
 @endsection
 
 @section("Images")

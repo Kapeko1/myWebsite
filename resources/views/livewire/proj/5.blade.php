@@ -1,5 +1,5 @@
 @section("Introduction")
-<h2>It is an educational platform for entrepreneurs and freelancers. I was responsible for internationalization, adding content for topics, UI design (based on feedback from partners), and functionality improvements, such as refining how the survey feature works.</h2>
+<p>It is an educational platform for entrepreneurs and freelancers. I was responsible for internationalization, adding content for topics, UI design (based on feedback from partners), and functionality improvements, such as refining how the survey feature works.</p>
 @endsection
 
 
@@ -23,8 +23,8 @@
 
 
 @section("Additional info")
-    <h2>Currently, the site does not require email confirmation after registration, so you can register with any email.</h2>
-    <h2>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://digifreelancer.erasmus.site/incubator/login" target="_blank">Incubator</a></h2>
+    <p>Currently, the site does not require email confirmation after registration, so you can register with any email.</p>
+    <p>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://digifreelancer.erasmus.site/incubator/login" target="_blank">Incubator</a></p>
 @endsection
 
 @section("Images")

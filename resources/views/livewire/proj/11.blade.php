@@ -1,6 +1,6 @@
 @section("Introduction")
-<h2>
-    This platform is part of a project aimed at supporting the mental health of immigrants. Since I already had some experience and the content was mostly static, I was able to develop it in just two days, without any issues, while thoroughly enjoying the process.</h2>
+<p>
+    This platform is part of a project aimed at supporting the mental health of immigrants. Since I already had some experience and the content was mostly static, I was able to develop it in just two days, without any issues, while thoroughly enjoying the process.</p>
 @endsection
 
 @section("Key features")
@@ -17,8 +17,8 @@
 
 
 @section("Additional info")
-    <h2>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://mindfulness.erasmus.site/courses/" target="_blank">Platform</a></h2>
-    <h2>The button animation on the main page was entirely my personal touch. Since I had plenty of time and the site was already finished, I looked for some small enhancements - even the simplest ones -to make the page a bit more "engaging" :).</h2>
+    <p>The platform is available at the following link - <a class="hover:cursor-pointer text-blue-400" href="https://mindfulness.erasmus.site/courses/" target="_blank">Platform</a></p>
+    <p>The button animation on the main page was entirely my personal touch. Since I had plenty of time and the site was already finished, I looked for some small enhancements - even the simplest ones -to make the page a bit more "engaging" :).</p>
 @endsection
 
 
