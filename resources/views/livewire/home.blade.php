@@ -27,7 +27,7 @@
 
         <div class="flex flex-col md:flex-row items-center mb-16">
             <div class="md:w-1/3 mb-8 md:mb-0">
-                <img src="{{ Vite::asset('resources/img/profile.jpg') }}" class="rounded-full mx-auto w-48 h-48 md:w-64 md:h-64 object-cover" alt="Profile Picture">
+                <img src="{{asset('img/profile.jpg') }}" class="rounded-full mx-auto w-48 h-48 md:w-64 md:h-64 object-cover" alt="Profile Picture">
             </div>
             <div class="md:w-2/3 text-center md:text-left">
                 <h2 class="text-3xl font-bold mb-4">About Me</h2>

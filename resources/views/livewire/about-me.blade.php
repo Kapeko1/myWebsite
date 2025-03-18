@@ -13,7 +13,7 @@
                          x-transition:enter-start="opacity-0 transform scale-95"
                          x-transition:enter-end="opacity-100 transform scale-100">
                         <div class="bg-blue-500 rounded-full w-12 h-12 flex items-center justify-center z-10">
-                            <img src="{{ Vite::asset('resources/img/' . $event['icon']) }}" alt="{{ $event['title'] }}" class="w-6 h-6">
+                            <img src="{{asset('img/' . $event['icon']) }}" alt="{{ $event['title'] }}" class="w-6 h-6">
                         </div>
                         <div class="ml-4 flex-grow">
                             <h3 class="text-xl font-semibold text-blue-400">{{ $event['title'] }}</h3>

@@ -17,7 +17,7 @@
                 <div x-show="selectedTech === 'all' || selectedTech === '{{ $project['tech'] }}' || (selectedTech === 'co-work' && {{ $project['cowork'] ? 'true' : 'false' }})"
                      class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
                     <div class="relative">
-                        <img src="{{ Vite::asset('resources/img/projects/' . $project['image']) }}" alt="{{ $project['title'] }}" class="w-full h-48 object-cover">
+                        <img src="{{asset('img/projects/' . $project['image']) }}" alt="{{ $project['title'] }}" class="w-full h-48 object-cover">
                         <div class="absolute top-0 right-0 bg-blue-600 text-white px-3 py-1 rounded-bl-lg text-xs font-semibold">
                             {{ $project['tech'] }}
                         </div>

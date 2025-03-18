@@ -1,1 +1,1 @@
-<img src="{{ Vite::asset('resources/img/icon.png') }}">
+<img src="{{asset('img/icon.png') }}">
