@@ -30,12 +30,12 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ asset('resources/img/projects/gary/1.png', ) }}',
-                 '{{ asset('resources/img/projects/gary/2.png', ) }}',
-                 '{{ asset('resources/img/projects/gary/3.png', ) }}',
-                 '{{ asset('resources/img/projects/gary/4.png', ) }}',
-                 '{{ asset('resources/img/projects/gary/5.png', ) }}',
-                 '{{ asset('resources/img/projects/gary/6.png', ) }}',
+                 '{{ asset('img/projects/gary/1.png', ) }}',
+                 '{{ asset('img/projects/gary/2.png', ) }}',
+                 '{{ asset('img/projects/gary/3.png', ) }}',
+                 '{{ asset('img/projects/gary/4.png', ) }}',
+                 '{{ asset('img/projects/gary/5.png', ) }}',
+                 '{{ asset('img/projects/gary/6.png', ) }}',
              ],
              showModal: false,
              modalImage: '',

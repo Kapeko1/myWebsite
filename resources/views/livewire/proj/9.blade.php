@@ -31,12 +31,12 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ asset('resources/img/projects/brand/1.png') }}',
-                 '{{ asset('resources/img/projects/brand/2.png') }}',
-                 '{{ asset('resources/img/projects/brand/3.png') }}',
-                 '{{ asset('resources/img/projects/brand/4.png') }}',
-                 '{{ asset('resources/img/projects/brand/5.png') }}',
-                 '{{ asset('resources/img/projects/brand/6.png') }}'
+                 '{{ asset('img/projects/brand/1.png') }}',
+                 '{{ asset('img/projects/brand/2.png') }}',
+                 '{{ asset('img/projects/brand/3.png') }}',
+                 '{{ asset('img/projects/brand/4.png') }}',
+                 '{{ asset('img/projects/brand/5.png') }}',
+                 '{{ asset('img/projects/brand/6.png') }}'
              ],
              showModal: false,
              modalImage: '',

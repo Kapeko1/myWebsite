@@ -24,11 +24,11 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ asset('resources/img/projects/obecnosc/5.png') }}',
-                 '{{ asset('resources/img/projects/obecnosc/2.png') }}',
-                 '{{ asset('resources/img/projects/obecnosc/3.png') }}',
-                 '{{ asset('resources/img/projects/obecnosc/4.png') }}',
-                 '{{ asset('resources/img/projects/obecnosc/1.png') }}'
+                 '{{ asset('/img/projects/obecnosc/5.png') }}',
+                 '{{ asset('/img/projects/obecnosc/2.png') }}',
+                 '{{ asset('/img/projects/obecnosc/3.png') }}',
+                 '{{ asset('/img/projects/obecnosc/4.png') }}',
+                 '{{ asset('/img/projects/obecnosc/1.png') }}',
              ],
              showModal: false,
              modalImage: '',

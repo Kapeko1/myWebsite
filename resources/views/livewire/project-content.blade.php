@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden mb-12 ">
+        <div class="w-full mb-12 bg-gray-800 rounded-lg shadow-lg">
             <div class="p-8">
                 <h2 class="text-2xl font-semibold text-blue-400 mb-4">Images</h2>
                 @yield("Images")

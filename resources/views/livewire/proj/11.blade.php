@@ -27,10 +27,10 @@
      x-data="{
              current: 0,
              images: [
-                 '{{ asset('resources/img/projects/m4i/1.png', ) }}',
-                 '{{ asset('resources/img/projects/m4i/2.png', ) }}',
-                 '{{ asset('resources/img/projects/m4i/3.png', ) }}',
-                 '{{ asset('resources/img/projects/m4i/4.png', ) }}',
+                 '{{ asset('img/projects/m4i/1.png', ) }}',
+                 '{{ asset('img/projects/m4i/2.png', ) }}',
+                 '{{ asset('img/projects/m4i/3.png', ) }}',
+                 '{{ asset('img/projects/m4i/4.png', ) }}',
              ],
              showModal: false,
              modalImage: '',

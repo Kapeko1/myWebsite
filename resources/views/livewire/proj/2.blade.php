@@ -29,11 +29,11 @@
          x-data="{
              current: 0,
              images: [
-                 '{{ asset('resources/img/projects/snake/5.png') }}',
-                 '{{ asset('resources/img/projects/snake/2.png') }}',
-                 '{{ asset('resources/img/projects/snake/3.png') }}',
-                 '{{ asset('resources/img/projects/snake/4.png') }}',
-                 '{{ asset('resources/img/projects/snake/1.png') }}'
+                 '{{ asset('img/projects/snake/5.png') }}',
+                 '{{ asset('img/projects/snake/2.png') }}',
+                 '{{ asset('img/projects/snake/3.png') }}',
+                 '{{ asset('img/projects/snake/4.png') }}',
+                 '{{ asset('img/projects/snake/1.png') }}',
              ],
              showModal: false,
              modalImage: '',
