@@ -5,7 +5,7 @@
                 Hi, I'm <span class="text-blue-500">Kacper Gądek</span>
             </h1>
             <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8 animate__animated animate__fadeIn">
-                Full-stack Developer & IT Specialist
+                Backend Developer
             </p>
             <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
                 <a href="{{ route('projects') }}" class="animate__animated animate__fadeInUp animate__delay-1s bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
@@ -32,7 +32,7 @@
             <div class="md:w-2/3 text-center md:text-left">
                 <h2 class="text-3xl font-bold mb-4">About Me</h2>
                 <p class="text-lg mb-4 text-gray-300">
-                    I am a passionate beginner full-stack developer with experience in Laravel, Flutter, C#, and more. Currently studying at the University of Information Technology and Management in Rzeszów, I have a solid background in both IT and language studies.
+                    I am a passionate beginner backend developer with experience in Laravel, Flutter, C#, and more. Currently studying at the University of Information Technology and Management in Rzeszów, I have a solid background in both IT and language studies.
                 </p>
                 <ul class="text-lg text-gray-300">
                     <li>Email: kacper.gadek2@wp.pl</li>
